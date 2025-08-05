@@ -7,9 +7,12 @@ export default defineConfig({
   build: {
     target: 'esnext',
     minify: 'esbuild',
+    assetsDir: 'assets',
+    copyPublicDir: true
   },
   server: {
     port: 3000,
     host: true
-  }
+  },
+  publicDir: 'public'
 })
