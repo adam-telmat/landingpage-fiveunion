@@ -401,7 +401,7 @@ export default function FiveUnionPremiumLanding() {
             <div className="flex items-center">
               <div className="h-12 sm:h-16"> {/* 📏 Logo plus petit sur mobile : 48px -> 64px */}
                 <img 
-                  src="/assets/five-unionlogo3.png"           // 🖼️  Chemin vers le logo
+                  src="/five-unionlogo3.png"           // 🖼️  Chemin vers le logo
                   alt="Five Union Logo HEADER"                // ♿ Texte alternatif pour l'accessibilité
                   className="h-full w-auto object-contain"    // 🎨 Responsive et proportionnel
                 />
@@ -620,7 +620,7 @@ export default function FiveUnionPremiumLanding() {
               transition={{ type: 'spring', stiffness: 300 }}
             >
               <img 
-                src="/assets/mac-futuriste-demi fermé.jpg" 
+                src="/mac-futuriste-demi fermé.jpg" 
                 alt="MacBook Pro Futuriste Five Union"
                 className="w-full h-auto rounded-2xl shadow-2xl"
                 style={{ 
@@ -802,7 +802,7 @@ export default function FiveUnionPremiumLanding() {
           <FloatingCard className="p-6" delay={0.2}>
             <div className="aspect-video bg-gradient-to-br from-purple-900 to-black rounded-xl mb-6 overflow-hidden">
               <img 
-                src="/assets/mac-futuriste-demi fermé.jpg"
+                src="/mac-futuriste-demi fermé.jpg"
                 alt="MacBook Pro Premium"
                 className="w-full h-full object-cover"
               />
@@ -824,7 +824,7 @@ export default function FiveUnionPremiumLanding() {
           <FloatingCard className="p-6" delay={0.4}>
             <div className="aspect-video bg-black rounded-xl mb-6 overflow-hidden">
               <img 
-                src="/assets/open-pcportable-futurist.jpg"
+                src="/open-pcportable-futurist.jpg"
                 alt="PC Portable Professionnel"
                 className="w-full h-full object-cover"
                 loading="lazy"
@@ -849,7 +849,7 @@ export default function FiveUnionPremiumLanding() {
           <FloatingCard className="p-6" delay={0.6}>
             <div className="aspect-video bg-gray-900 rounded-xl mb-6 overflow-hidden">
               <img 
-                src="/assets/pc-portable-triplescreen.jpg"
+                src="/pc-portable-triplescreen.jpg"
                 alt="Setup Multi-Écrans"
                 className="w-full h-full object-cover"
                 loading="lazy"
@@ -1025,7 +1025,7 @@ export default function FiveUnionPremiumLanding() {
           >
             <div className="flex items-center mb-6">
               <div className="h-12">
-                <img src="/assets/five-unionlogo3.png" alt="Five Union Logo FOOTER" className="h-full w-auto object-contain" />
+                <img src="/five-unionlogo3.png" alt="Five Union Logo FOOTER" className="h-full w-auto object-contain" />
               </div>
               <span className="text-2xl font-bold text-white" style={{ marginLeft: '-5.8rem' }}>Five Union</span>
             </div>
